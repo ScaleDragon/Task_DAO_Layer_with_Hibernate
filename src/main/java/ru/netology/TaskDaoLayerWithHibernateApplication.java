@@ -11,5 +11,4 @@ public class TaskDaoLayerWithHibernateApplication {
     public static void main(String[] args) {
         SpringApplication.run(TaskDaoLayerWithHibernateApplication.class, args);
     }
-
 }
