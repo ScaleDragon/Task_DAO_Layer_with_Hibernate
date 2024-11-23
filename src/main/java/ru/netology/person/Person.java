@@ -1,4 +1,4 @@
-package ru.netology.person.repository;
+package ru.netology.person;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;

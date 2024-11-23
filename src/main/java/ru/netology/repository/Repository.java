@@ -1,9 +1,9 @@
-package ru.netology;
+package ru.netology.repository;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import lombok.AllArgsConstructor;
-import ru.netology.person.repository.Person;
+import ru.netology.person.Person;
 
 import java.util.List;
 
