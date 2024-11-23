@@ -9,7 +9,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @org.springframework.stereotype.Repository
-public class Repository {
+public class PersonRepository {
 
     @PersistenceContext
     private EntityManager entityManager;
@@ -20,6 +20,4 @@ public class Repository {
                 .setParameter("city", city);
         return resultCity.getResultList();
     }
-
-
 }
