@@ -20,6 +20,4 @@ public class Repository {
                 .setParameter("city", city);
         return resultCity.getResultList();
     }
-
-
 }
